@@ -1,0 +1,17 @@
+﻿<Window x:Class="ResearchManagementSem1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ResearchManagementSem1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas Margin="0">
+            <Image x:Name="Triangle" Width="100" Height="100" Canvas.Top="100" Canvas.Left="100" Source="/Images/triangle.png" MouseLeftButtonDown="MouseLeftButtonDown" MouseMove="MouseMove" />
+            <Image x:Name="Rectangle" Width="100" Height="100" Canvas.Top="300" Canvas.Left="100" Source="/Images/rectangle.png" MouseLeftButtonDown="MouseLeftButtonDown" MouseMove="MouseMove"/>
+            <Image x:Name="Star" Width="100" Height="100" Canvas.Top="100" Canvas.Left="300" Source="/Images/star.png" MouseLeftButtonDown="MouseLeftButtonDown" MouseMove="MouseMove"/>
+        </Canvas>
+
+    </Grid>
+</Window>
